@@ -85,6 +85,9 @@ body {
 #quote>*{
  animation: fadeIn 10s ease 0s 1 normal forwards;
 }
+#quote{
+ animation: fadeIn 10s ease 0s 1 normal forwards;
+}
 #quote * {
   text-align: justify;
 }
