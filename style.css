@@ -82,7 +82,9 @@ body {
   align-items: center;
   color: white;
 }
-
+#quote>*{
+ animation: fadeIn 10s ease 0s 1 normal forwards;
+}
 #quote * {
   text-align: justify;
 }
