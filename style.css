@@ -72,10 +72,8 @@ body {
   animation: fadeIn 2s ease 0s 1 normal forwards;
 }
 
-#intro-info-name {
-  margin: 0px;
-  font-size: 64px;
-  font-weight: 700;
+.typewriter {
+
   font-family: poppins;
   -webkit-animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 	        animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
@@ -114,7 +112,10 @@ body {
   }
 }
 
-.typewriter {
+#intro-info-name  {
+  margin: 0px;
+  font-size: 64px;
+  font-weight: 700;
   color: #fff;
   font-family: monospace;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
