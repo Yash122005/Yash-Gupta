@@ -34,7 +34,6 @@
     scroller:"body",
     start:"top 80%",
     end:"top 30%",
-    markers:true,
     scrub:5
   }
   })
