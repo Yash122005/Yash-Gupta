@@ -517,3 +517,43 @@ b{
     padding: 1rem 0px;
   }
 }
+footer {
+      background-color: #222;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .footer-icons {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 40px;
+    }
+    .footer-icons span {
+      font-size: 15px;
+      color: #f7eac0;
+      font-weight: 700;
+    }
+    .footer-icons a {
+      color: white;
+      font-size: 24px;
+      transition: transform 0.2s ease, color 0.2s ease;
+    }
+
+    .footer-icons a:hover {
+      color: #ffa116; /* default hover color */
+      transform: scale(1.2);
+    }
+
+    .footer-icons a.leetcode:hover {
+      color: #ffa116;
+    }
+
+    .footer-icons a.gfg:hover {
+      color: #2f8d46;
+    }
